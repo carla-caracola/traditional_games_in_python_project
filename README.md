@@ -1,113 +1,69 @@
 # The Cheetah Girls - Nostalgic Games
 
-## Descripción
+## Project description
 
-Bienvenido al proyecto **The Cheetah Girls - Nostalgic Games**. Este repositorio contiene tres juegos clásicos de la infancia desarrollados en Python: Ahorcado, Piedra, Papel o Tijera, y un juego de Preguntas y Respuestas. Estos juegos han sido desarrollados para la empresa **Nostalgic Games** con el fin de revivir los momentos divertidos y educativos de la niñez.
+Welcome to the **The Cheetah Girls - Nostalgic Games** project. This repository contains three classic childhood games developed in Python: Hangman, Rock-Paper-Scissors, and a Trivia game. Each game has been carefully designed to provide an authentic and nostalgic experience, using Python to implement the logic and ensure smooth and entertaining gameplay.
 
-Cada juego ha sido diseñado cuidadosamente para proporcionar una experiencia auténtica y nostálgica, utilizando Python para implementar la lógica y asegurar una jugabilidad fluida y entretenida.
+The project was developed by the team "The Cheetah Girls" during Module 1 of the Data Analytics Bootcamp by Adalab.
 
-## Juegos Incluidos
+### Team members
+- [Laia Ayats] (https://github.com/LaiaAyats)
+- [Yamille A Calvo] (https://github.com/YamilleAClavo)
+- [Bertha Karolina] (https://github.com/910129023)
+- [Carla Biscotti] (https://github.com/carla-caracola)
 
-### 1. Ahorcado
+### About the Bootcamp
+Learn more about the bootcamp at https://adalab.es/
 
-El juego del ahorcado es un clásico en el que debes adivinar una palabra letra por letra. Tienes un número limitado de intentos antes de que el hombrecito sea "ahorcado".
+## Games included
 
-#### Características:
-- Lista de palabras predefinidas.
-- Muestra del progreso de la palabra adivinada.
-- Contador de intentos restantes.
-- Indicador visual del estado del ahorcado.
+### 1. Hangman
 
-#### Ejecución:
-```bash
-python ahorcado.py
-```
+Hangman is a classic game where you have to guess a word letter by letter. You have a limited number of attempts before the little man is "hanged".
 
-### 2. Piedra, Papel o Tijera
+#### Features:
+- List of predefined words. Computer randomly chooses one.
+- Progress display of the guessed word.
+- Counter of remaining attempts.
+- Visual indicator of the status of the hangman.
 
-Un simple juego de manos donde Piedra vence a Tijera, Tijera vence a Papel y Papel vence a Piedra. Juega contra la computadora.
+### 2. Rock, Paper, Scissors
 
-#### Características:
-- Opción para el jugador de elegir entre Piedra, Papel o Tijera.
-- La computadora elige aleatoriamente una opción.
-- Se determina el ganador según las reglas del juego.
+A simple game of hand where Rock beats Scissors, Scissors beats Paper, and Paper beats Rock. Play against the computer.
 
-#### Ejecución:
-```bash
-python piedra_papel_tijera.py
-```
+#### Features:
+- Option for the player to choose between Rock, Paper, or Scissors.
+- Computer randomly chooses one option.
+- The winner is the one who wins 3 times.
 
-### 3. Preguntas y Respuestas
+### 3. Geography Trivia Game
 
-Un juego educativo que presenta preguntas de opción múltiple al jugador. El objetivo es responder correctamente tantas preguntas como sea posible.
+An educational game that presents multiple choice questions to the player. The goal is to correctly answer as many questions as possible.
 
-#### Características:
-- Preguntas y respuestas predefinidas.
-- Validación de respuestas y puntuación del jugador.
+#### Features:
+- Predefined questions and answers.
+- Validation of answers and player scoring.
 
-#### Ejecución:
-```bash
-python preguntas_respuestas.py
-```
+## Methodology
 
-## Instalación y Ejecución
+### Agile Development
 
-Para ejecutar cualquiera de estos juegos en tu máquina local, sigue estos pasos:
+The development of these games followed an agile methodology, allowing for rapid iterations and continuous code improvement. Key practices used included:
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/tu_usuario/nostalgic-games.git
-    ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd nostalgic-games
-    ```
-3. Ejecuta el juego deseado usando Python:
-    ```bash
-    python nombre_del_juego.py
-    ```
+- **Scrum:** Daily monitoring meetings, sprint planning, and sprint reviews.
 
-## Metodología
+### Python as Primary Tool
 
-### Desarrollo Ágil
+Key Python features used in this project include:
 
-El desarrollo de estos juegos siguió una metodología ágil, permitiendo iteraciones rápidas y una mejora continua del código. Las principales prácticas utilizadas incluyeron:
+- **Random:** For random selection of words and moves by the computer.
+- **Control Structures:** Loops and conditionals for game logic.
+- **Lists and Strings:** For data manipulation and game states.
+- **User Interaction:** Use of `input` and `print` for data input and output.
 
-- **Scrum:** Reuniones diarias de seguimiento, planificación de sprints y revisiones de sprint.
-- **TDD (Desarrollo Guiado por Pruebas):** Creación de pruebas unitarias antes del desarrollo de características clave.
-- **Integración Continua:** Uso de herramientas para la integración y prueba continua del código.
 
-### Python como Herramienta Principal
+## Special thanks to:
 
-Python fue elegido por su simplicidad y versatilidad, lo que permitió un desarrollo rápido y eficiente. Las características principales de Python utilizadas en este proyecto incluyen:
-
-- **Random:** Para la selección aleatoria de palabras y movimientos de la computadora.
-- **Estructuras de Control:** Bucles y condicionales para la lógica del juego.
-- **Listas y Strings:** Para la manipulación de datos y estados del juego.
-- **Interacción con el Usuario:** Uso de `input` y `print` para la entrada y salida de datos.
-
-## Contribución
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Agregar nueva característica'`).
-4. Sube tus cambios a la rama (`git push origin feature/nueva-caracteristica`).
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, revisa el archivo [LICENSE](LICENSE).
-
-## Contacto
-
-Para cualquier duda o sugerencia, por favor contacta a:
-
-- **Nombre del Equipo:** The Cheetah Girls
-- **Correo Electrónico:** contacto@cheetahgirls.com
-- **GitHub:** [The Cheetah Girls](https://github.com/tu_usuario)
-
----
-
-Espero que esta versión del README cumpla con tus expectativas. Si hay más detalles que quieras agregar o algún cambio que desees realizar, no dudes en decírmelo.
+Our teachers during this module, César Valle and Carla Álvarez López, for their passion and patience.
+Our teammates from promotion <em>Inez Vázquez</em>, for their support and for making this journey an enjoyable one.
+Adalab for granting the Bootcamp.
